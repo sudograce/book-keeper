@@ -1,0 +1,27 @@
+.auth {
+  background: #363740;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .content {
+    width: 380px;
+    margin: 140px 0;
+    background-color: #fff;
+    border-radius: 5px;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 40px 0;
+
+      h1 {
+        color: #A4A6B3;
+        font-family: "Mulish";
+        font-size: 19px;
+      }
+    }
+  }
+}
