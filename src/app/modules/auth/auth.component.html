@@ -2,10 +2,12 @@
   <div class="content">
     <div class="logo">
       <svg-icon src="assets/img/logo.svg"></svg-icon>
-      <h1>{{ applicationName }}</h1>
+      <div class="title">{{ applicationName }}</div>
     </div>
 
-    <router-outlet></router-outlet>
+    <div class="router-wrapper">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>
 

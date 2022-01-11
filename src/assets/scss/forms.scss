@@ -1,0 +1,35 @@
+input {
+  border-radius: 8px;
+  background: #FCFDFE;
+  border: 1px solid #F0F1F7;
+  padding: 11px 8px 11px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4B506D;
+  opacity: 0.8;
+
+  &::placeholder {
+    color: #4B506D;
+    opacity: 0.4;
+  }
+}
+
+label {
+  color: #9FA2B4;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.form-control {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0 32px;
+}
