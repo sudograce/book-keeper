@@ -1,0 +1,7 @@
+.helper {
+  display: flex;
+  justify-content: center;
+  & span {
+    margin-right: 5px;
+  }
+}

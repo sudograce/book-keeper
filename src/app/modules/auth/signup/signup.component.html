@@ -1,1 +1,24 @@
-<div>signup works!</div>
+<h1>Sign up to Book Keeper</h1>
+<div class="helper">
+  <span>Enter your email and password below</span>
+</div>
+<form class="auth-form" [formGroup]="signupForm">
+  <div class="form-control">
+    <label>Email</label>
+    <input formControlName="email" type="email" placeholder="Email">
+  </div>
+  <div class="form-control">
+    <label>Password</label>
+    <input formControlName="password" type="password" placeholder="Password">
+  </div>
+  <div class="form-control">
+    <label>Confirm password</label>
+    <input formControlName="confirmPassword" type="password" placeholder="Confirm password">
+  </div>
+  <div class="action-button">
+    <button type="submit" class="accent" (click)="submitForm()">Sign up</button>
+  </div>
+</form>
+<div class="helper">
+  <span>Already have an account?</span><a href="/auth/login">Login</a>
+</div>
