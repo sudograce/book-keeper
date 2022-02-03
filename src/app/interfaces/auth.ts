@@ -1,5 +1,9 @@
 export interface LoginResponse {
-  token: string;
+  user: {
+    token: string;
+    name: string;
+    id: string;
+  }
 }
 
 export interface LoginBody {
